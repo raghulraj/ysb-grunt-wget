@@ -1,0 +1,43 @@
+{
+  "name": "grunt-wget",
+  "version": "0.1.0",
+  "description": "YSB Wget plugin for Grunt.",
+  "homepage": "https://github.com/raghulraj/ysb-grunt-wget",
+  "author": {
+    "name": "Raghul Raj V",
+    "email": "raghulraj@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/raghulraj/ysb-grunt-wget.git"
+  },
+  "bugs": "https://github.com/raghulraj/ysb-grunt-wget/issues",
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "files": [
+    "tasks"
+  ],
+  "keywords": [
+    "grunt",
+    "gruntplugin",
+    "wget"
+  ],
+  "dependencies": {
+    "async": "~0.2.10",
+    "request": "~2.40.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "jit-grunt": "~0.8.0"
+  },
+  "peerDependencies": {
+    "grunt": ">=0.4.0"
+  }
+}
